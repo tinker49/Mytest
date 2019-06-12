@@ -24,4 +24,8 @@ fn main() {
     
     // Variables can be overwritten with shadowing.
     let mutable = true;
+
+    for n in 1..10 {
+      println!(n);
+    }
 }
